@@ -31,9 +31,6 @@ function checkForDarkPatterns() {
   document.addEventListener('DOMContentLoaded', function () {
     // Use MutationObserver to listen for changes in the DOM
     var observer = new MutationObserver(function () {
-      // Your code here
-      // For example, you might want to call a function like checkForDarkPatterns()
-      // or perform other actions based on DOM changes in the popup.
     });
   
     // Define the configuration of the observer (monitoring for childList changes)
