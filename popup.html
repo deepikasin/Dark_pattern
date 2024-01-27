@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Pattern Detector</title>
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+    #darkPatternBox {
+        background-color: #ffcccc;
+    border: 1px solid #52154f;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center; /* Center text within the box */
+  }
+  </style>
+</head>
+<body>
+  <div id="darkPatternBox">
+    <h2>Dark Pattern Detected!</h2>
+    <p>This website may be using deceptive design tactics to manipulate you. Proceed with caution.</p>
+    <button id="detectDarkPatternBtn">Detect Dark Pattern</button>
+  </div>
+
+  <!-- Include your JavaScript file -->
+  <script src="content.js"></script>
+</body>
+</html>
+
